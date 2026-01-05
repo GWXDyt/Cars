@@ -1,0 +1,6 @@
+body{margin:0;font-family:Arial;background:#0b0b0b;color:white}
+.navbar{display:flex;justify-content:space-between;padding:20px;background:black}
+.navbar span{color:#1e90ff}
+.navbar a{color:white;margin-left:15px;text-decoration:none}
+.hero{padding:80px;text-align:center}
+footer{text-align:center;padding:15px;background:black}
