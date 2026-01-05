@@ -1,6 +1,93 @@
-body{margin:0;font-family:Arial;background:#0b0b0b;color:white}
-.navbar{display:flex;justify-content:space-between;padding:20px;background:black}
-.navbar span{color:#1e90ff}
-.navbar a{color:white;margin-left:15px;text-decoration:none}
-.hero{padding:80px;text-align:center}
-footer{text-align:center;padding:15px;background:black}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b0b0b;
+  color: white;
+}
+
+.navbar {
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.navbar span {
+  color: #1e90ff;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.hero {
+  height: 80vh;
+  padding: 60px;
+  background: #111;
+}
+
+section {
+  padding: 50px 30px;
+  text-align: center;
+}
+
+.type-box {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.type {
+  background: #151515;
+  padding: 20px;
+  width: 120px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #151515;
+  width: 200px;
+  padding: 20px;
+}
+
+table {
+  margin: auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 12px;
+}
+
+th {
+  background: #1e90ff;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+footer {
+  background: black;
+  padding: 15px;
+  text-align: center;
+}

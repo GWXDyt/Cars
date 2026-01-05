@@ -1,27 +1,127 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BMW Motors</title>
-<link rel="stylesheet" href="style.css">
+  <title>BMW Motors</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 <header class="navbar">
-<h1>BMW<span>Motors</span></h1>
-<nav>
-<a href="index.html">Home</a>
-<a href="models.html">Models</a>
-<a href="sedan.html">Sedan</a>
-<a href="suv.html">SUV</a>
-<a href="coupe.html">Coupe</a>
-<a href="race.html">Race</a>
-</nav>
+  <h1>BMW<span>Motors</span></h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#types">Types</a>
+    <a href="#models">Models</a>
+    <a href="#process">Process</a>
+    <a href="#specs">Specifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
 </header>
-<section class="hero">
-<h2>The Ultimate Driving Machine</h2>
-<p>Luxury • Performance • Innovation</p>
+
+<section class="hero" id="home">
+  <h2>The Ultimate Driving Machine</h2>
+  <p>Luxury • Performance • Innovation</p>
+  <button>Explore Now</button>
 </section>
-<footer><p>© 2026 BMW Motors</p></footer>
+
+<section class="about" id="about">
+  <h2>About BMW</h2>
+  <p>
+    BMW Motors is a world-renowned automobile brand known for luxury,
+    comfort, innovation, and powerful performance. The brand focuses on
+    delivering premium driving experiences worldwide.
+  </p>
+</section>
+
+<section class="types" id="types">
+  <h2>Types of Cars</h2>
+  <div class="type-box">
+    <div class="type">Sedan</div>
+    <div class="type">SUV</div>
+    <div class="type">Coupe</div>
+    <div class="type">Race Car</div>
+    <div class="type">Electric</div>
+  </div>
+</section>
+
+<section class="models" id="models">
+  <h2>Popular Models</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>BMW 3 Series</h3>
+      <p>Sedan</p>
+    </div>
+    <div class="card">
+      <h3>BMW X5</h3>
+      <p>SUV</p>
+    </div>
+    <div class="card">
+      <h3>BMW M4</h3>
+      <p>Coupe</p>
+    </div>
+    <div class="card">
+      <h3>BMW Race Car</h3>
+      <p>Track Performance</p>
+    </div>
+  </div>
+</section>
+
+<section class="process" id="process">
+  <h2>Car Manufacturing Process</h2>
+  <ul>
+    <li>Designing and planning</li>
+    <li>Body manufacturing</li>
+    <li>Painting and finishing</li>
+    <li>Engine and interior assembly</li>
+    <li>Quality testing</li>
+  </ul>
+</section>
+
+<section class="specs" id="specs">
+  <h2>Car Specifications</h2>
+  <table>
+    <tr>
+      <th>Model</th>
+      <th>Engine</th>
+      <th>Top Speed</th>
+      <th>Fuel</th>
+    </tr>
+    <tr>
+      <td>BMW 3 Series</td>
+      <td>2.0L Turbo</td>
+      <td>250 km/h</td>
+      <td>Petrol</td>
+    </tr>
+    <tr>
+      <td>BMW X5</td>
+      <td>3.0L Turbo</td>
+      <td>240 km/h</td>
+      <td>Diesel</td>
+    </tr>
+    <tr>
+      <td>BMW M4</td>
+      <td>3.0L Twin Turbo</td>
+      <td>290 km/h</td>
+      <td>Petrol</td>
+    </tr>
+  </table>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Your Email">
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 BMW Motors | School Project</p>
+</footer>
+
 </body>
 </html>
