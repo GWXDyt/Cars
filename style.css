@@ -1,93 +1,61 @@
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0b0b0b;
-  color: white;
+body{
+margin:0;
+font-family:Arial;
+background:#0b0b0b;
+color:white;
+text-align:center
 }
-
-.navbar {
-  background: black;
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 40px;
+.navbar{
+background:black;
+padding:20px
 }
-
-.navbar span {
-  color: #1e90ff;
+.navbar span{
+color:#1e90ff
 }
-
-.navbar a {
-  color: white;
-  margin-left: 15px;
-  text-decoration: none;
+.navbar a{
+color:white;
+margin:10px;
+text-decoration:none
 }
-
-.hero {
-  height: 80vh;
-  padding: 60px;
-  background: #111;
+.page{
+padding:40px
 }
-
-section {
-  padding: 50px 30px;
-  text-align: center;
+.page img{
+width:80%;
+max-width:600px;
+margin:20px auto;
+display:block;
+border-radius:10px
 }
-
-.type-box {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-  flex-wrap: wrap;
+table{
+margin:auto;
+border-collapse:collapse;
+width:80%
 }
-
-.type {
-  background: #151515;
-  padding: 20px;
-  width: 120px;
+th,td{
+border:1px solid #333;
+padding:10px
 }
-
-.cards {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
+th{
+background:#1e90ff
 }
-
-.card {
-  background: #151515;
-  width: 200px;
-  padding: 20px;
+form{
+max-width:400px;
+margin:auto
 }
-
-table {
-  margin: auto;
-  width: 80%;
-  border-collapse: collapse;
+input,textarea{
+width:100%;
+padding:10px;
+margin-bottom:15px
 }
-
-th, td {
-  border: 1px solid #333;
-  padding: 12px;
+button{
+padding:10px;
+background:#1e90ff;
+border:none;
+color:white
 }
-
-th {
-  background: #1e90ff;
-}
-
-form {
-  max-width: 400px;
-  margin: auto;
-}
-
-input, textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-}
-
-footer {
-  background: black;
-  padding: 15px;
-  text-align: center;
+footer{
+background:black;
+padding:15px
 }
